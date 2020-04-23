@@ -248,6 +248,11 @@ input[type=text] {
     background-color: #FF9700;
 }
 
+p.center-2 {
+    text-align: left;
+    font-size: 18px;
+}
+
 .method-img {
     height: 45.8rem;
 }
@@ -823,5 +828,9 @@ input[type=text] {
     .img-last.contain-fluid {
         margin-top: -139px;
         height: 8%;
+    }
+    p.center,
+    p.center-2 {
+        display: none;
     }
 }
