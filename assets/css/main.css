@@ -841,5 +841,6 @@ input[type=text] {
         color: black;
         font-weight: 600;
         /* font-family: 'Dancing Script', cursive; */
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
