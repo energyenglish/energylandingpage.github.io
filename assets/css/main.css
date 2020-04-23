@@ -1,6 +1,7 @@
 .banner-top {
     height: 65rem;
     position: relative;
+    scroll-behavior: smooth;
 }
 
 .banner-top a {
@@ -19,9 +20,9 @@
 .banner-top_box {
     background-color: white;
     width: 38.5rem;
-    height: 32.2rem;
+    height: 44.2rem;
     position: absolute;
-    top: 280px;
+    top: 214px;
     right: 38px;
     display: flex;
     align-items: center;
@@ -30,7 +31,7 @@
 
 .box {
     width: 35.1rem;
-    height: 28.9rem;
+    height: 40.9rem;
     border: 2px dashed var(--button-color);
     border-radius: 8px;
     position: relative;
@@ -85,7 +86,7 @@
     width: 32.7rem;
     height: 22rem;
     position: absolute;
-    top: 6.9rem;
+    top: 15.9rem;
     right: 3.35%;
 }
 
@@ -98,6 +99,13 @@
     width: 100%;
     height: 3.7rem;
     margin-bottom: 19px;
+}
+
+input[type=text] {
+    font-size: 1.8rem;
+    /* color: black; */
+    font-weight: 600;
+    outline: none;
 }
 
 .SET2 {
@@ -151,6 +159,15 @@
     text-align: center;
     height: 13.5rem;
     width: 100%;
+}
+
+.teacher-infor img {
+    width: 100%;
+    height: 75%;
+}
+
+.teacher-image.row {
+    height: 26.8rem;
 }
 
 .teacher-text>h3 {
@@ -277,6 +294,7 @@
     height: 30.2rem;
     /* background-image: url(); */
     background-color: var(--button-color);
+    scroll-behavior: smooth;
 }
 
 .img-link>a {
@@ -651,6 +669,7 @@ input[type=text] {
     bottom: 33px;
     left: 45%;
     cursor: pointer;
+    scroll-behavior: smooth;
 }
 
 .news {
@@ -721,6 +740,13 @@ input[type=text] {
     height: 100%
 }
 
+input[type=text] {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 600;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
 @media screen and (max-width:999px) {
     .banner-top_box {
         background-color: white;
@@ -755,5 +781,47 @@ input[type=text] {
     }
     .DK.contain {
         margin-top: -71px;
+    }
+    .img-link.contain-fluid {
+        visibility: hidden;
+    }
+    .demo.contain-fluid {
+        margin-top: 915px;
+        margin-left: -19px;
+        height: 100%;
+        margin-bottom: 25px;
+    }
+    .contain.row.set1 {
+        margin-top: 898px;
+        justify-content: space-between;
+    }
+    .teacher-text>h3 {
+        margin-left: -45px;
+        font-size: 2.8rem;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #FF5600;
+        padding-bottom: 43px;
+    }
+    .hot.container-fluid {
+        display: none;
+    }
+    .endow.contain-fluid {
+        display: none;
+    }
+    .link-new {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: 20.1rem;
+    }
+    .content-news {
+        margin-bottom: 135px;
+    }
+    .img-last.contain-fluid {
+        margin-top: -139px;
+        height: 8%;
     }
 }
