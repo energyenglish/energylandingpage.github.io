@@ -1,0 +1,52 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --button-color: #FF9511;
+    --button2-color: #FF0000;
+    --box-color:#FFCF00 ;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.contain{
+    width: 71.3%;
+    margin-left: 14.35%;
+}
+.container{
+    width: 61.3%;
+    margin-left: 19.35%;
+}
+.contain-fluid{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-2{
+     height: 100%;
+     width: 48%;
+}
+.col-3{
+    height: 100%;
+    width:31%;
+}
+.col-4{
+    height: 100%;
+    width:23%;
+}
+.col-5{
+    height: 100%;
+    width:18%;
+}
