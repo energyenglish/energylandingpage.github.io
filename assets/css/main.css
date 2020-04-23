@@ -619,7 +619,6 @@ input[type=text] {
     font-size: 1.8rem;
     color: black;
     font-weight: 600;
-    font-family: 'Dancing Script', cursive;
 }
 
 .text {
@@ -754,7 +753,6 @@ input[type=text] {
     font-size: 1.8rem;
     color: black;
     font-weight: 600;
-    /* font-family: 'Dancing Script', cursive; */
 }
 
 @media screen and (max-width:999px) {
