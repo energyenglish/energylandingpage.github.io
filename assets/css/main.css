@@ -755,6 +755,16 @@ input[type=text] {
     font-weight: 600;
 }
 
+button.btn-danger {
+    padding: 20px;
+    font-size: 15px;
+    background: #f39c12;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1368px) {
     .DK-image {
         width: 115%;
